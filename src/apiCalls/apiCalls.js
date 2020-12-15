@@ -1,4 +1,4 @@
-const BASE_URL = 'https://rancid-tomatillos.herokuapp.com/api/v1';
+const BASE_URL = 'https://rancid-tomatillos.herokuapp.com/api/v2';
 const MOVIES_ENDPOINT = '/movies/';
 const LOGIN_ENDPOINT = '/login/';
 const USERS = '/users/';
