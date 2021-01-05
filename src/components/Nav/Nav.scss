@@ -24,5 +24,18 @@ header {
         @include buttonStyle;
       }
     }
+
+    .filter-btn {
+      @include buttonStyle;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .rated-count {
+      @include buttonStyle;
+      border: 1px black solid;
+    }
   }
 }

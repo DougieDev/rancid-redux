@@ -29,7 +29,8 @@ class App extends Component {
           exact
           path="/"
           render={() => (
-            <MovieContainer/>
+            <MovieContainer movies={this.props.movies} />
+            // <MovieContainer />
           )}
         />
         <Route

@@ -20,3 +20,9 @@ export const logout = (id) => {
     id
   })
 }
+
+export const filterMovies = (movies, userRatings) => ({
+  type: 'GET_MOVIES_WITH_RATING',
+  movies,
+  userRatings
+})

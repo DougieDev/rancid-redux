@@ -5,6 +5,7 @@ import { getRatings } from '../../actions';
 import PropTypes from 'prop-types';
 
 class MovieContainer extends Component {
+  
   updateUserMovieList = () => {
     return this.props.movies.map(movie => {
       return {...movie, userRating: this.checkUserRating(movie.id)}
